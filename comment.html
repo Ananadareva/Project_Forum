@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komentar</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Forum Rumpi!</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+
+            </ul>
+        </nav>
+    </header>
+ <!-- nanti isi comment nha dinamis dari db-->
+    <main>
+        <section class="comments-section">
+            <h2>Komentar</h2>
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="img/profile.jpg" alt="profile">
+                    <div class="comment-info">
+                        <h3>Username 1</h3>
+                        <h4>Waktu 1</h4>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <p>Komentar pengguna 1...</p>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="img/profile.jpg" alt="profile">
+                    <div class="comment-info">
+                        <h3>Username 2</h3>
+                        <h4>Waktu 2</h4>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <p>Komentar pengguna 2...</p>
+                </div>
+            </div>
+        
+            <h2>Tambahkan Komentar</h2>
+            <form id="comment-form">
+                <label for="comment-username">Nama Pengguna:</label>
+                <input type="text" id="comment-username" name="comment-username" required><br>
+                <label for="comment-content">Komentar Anda:</label>
+                <textarea id="comment-content" name="comment-content" rows="4" required></textarea><br>
+                <button type="submit">Kirim Komentar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Forum Rumpi!</p>
+    </footer>
+</body>
+</html>

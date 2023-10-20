@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Kepo!</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Forum Rumpi!</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="profile.html">Profil</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--IsI kontene dinamis dari db-->
+
+    <main> <a href="newPost.html">
+            <i class="fas fa-plus fa-lg" style="color: green;"></i> Buat Postingan
+    </a>
+        <section class="post-section">
+            <!--IsI KonTen post-->
+            <div class="post">
+                <div class="post-header">
+                    <img src="img/profile.jpg" alt="profile">
+                    <div class="post-info">
+                        <h3>Username</h3>
+                        <h4>Waktu</h4>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h3>Judul Postingan</h3>
+                    <p>Isi Postingan</p>
+                </div>
+                <div class="post-footer">
+                    <button type="button">
+                        <i class="fas fa-heart fa-lg" style="color: red;"></i> Suka
+                    </button>
+                    <a href="comment.html">
+                        <i class="fas fa-comment fa-lg" style="color: blue;"></i> Komentar
+                    </a>
+                </div>
+
+
+                
+
+        </section>
+        <section class="post-section">
+            <div class="post">
+                <div class="post-header">
+                    <img src="img/profile.jpg" alt="profile">
+                    <div class="post-info">
+                        <h3>Username</h3>
+                        <h4>Waktu</h4>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h3>Judul Postingan</h3>
+                    <p>Isi Postingan</p>
+                </div>
+                <div class="post-footer">
+                    <button type="button">
+                        <i class="fas fa-heart fa-lg" style="color: red;"></i> Suka
+                    </button>
+                    <button type="button">
+                        <i class="fas fa-comment fa-lg" style="color: blue;"></i> Komentar
+                    </button>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Forum Rumpi! </p>
+    </footer>
+</body>
+
+</html>
